@@ -1,0 +1,196 @@
+ body {
+     padding-left: 2%;
+
+ }
+
+ /* ============= CSS CHO TEXT =========== */
+ .text-blue {
+     color: #82B8BC;
+ }
+
+ .text-center {
+     text-align: center;
+ }
+
+ .text-orange {
+     color: orange;
+ }
+
+ .text-red {
+     color: red;
+ }
+
+ .text-italic {
+     font-style: italic;
+ }
+
+ /* =========== CSS CHO HEADER ============ */
+
+ .content-head {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+
+ .content-logo {
+     flex: 1;
+ }
+
+ .content-logo img {
+     width: 20%;
+     margin-top: auto;
+ }
+
+ .content-menu{
+    flex: 2;
+ }
+
+ .content-menu ul {
+     display: flex;
+ }
+
+ .content-menu li {
+     list-style-type: none;
+     margin: 0  10px;
+ }
+
+ .content-menu a{
+    text-decoration: none;
+    color: #58b4ea;
+ }
+
+ .content-search button{
+    background-color: #000;
+    color: #fff;
+ }
+
+ /* ============== CSS CHO NAVBAR ============= */
+ #navbar-menu {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+ }
+
+  /* ============== CSS CHO CONTENT ============= */
+
+.content-first{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 15px /* Gap tạo khoảng cách giữa các thuộc tính */
+}
+
+.ct-fr-item{
+    overflow: hidden; /* auto cung dc */
+    margin-bottom: 15px;
+}
+
+.ct-fr-item span{
+    color: orange;
+}
+
+.ct-first-right h1{
+    color: #58b4ea;
+}
+
+.ct-fr-item img{
+    width: 120px;
+    height: 80px;
+    float: left;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.ct-fr-item p{
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ========= CSS HOTEL INFORMATION =========== */
+
+.content-title h2{
+    text-align: center;
+    color: #58b4ea;
+}
+
+.hotel-info{
+    display: flex;
+    gap: 15px;
+}
+
+.hotel-info-left{
+    flex: 1;
+}
+
+.hotel-info-right{
+    flex: 1;
+    background-color: #E7E3E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ==================== CSS CHO BOOKING =============== */
+.form-title{
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+}
+
+.form-group{
+    display: flex;
+    margin-left: 30px;
+}
+
+.form-group label{
+    min-width: 30%;
+}
+
+.form-group input,
+.form-group select{
+    width: 50%;
+    padding: 5px;
+}
+
+.btn-book p{
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    margin: 30px auto;
+    border-radius: 5px;
+    color: white;
+}
+
+/* ================= css FEEDBACK HOTEL ============ */
+.feedback-title h2{
+    text-align: center;
+    color: #58b4ea;
+}
+
+.feedback{
+    padding: 0 10%;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.feedback img{
+    border-radius: 50%;
+}
+
+/* ========== CSS FOOTER ============ */
+
+.footer{
+    background-color: #58b4ea;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright{
+    text-align: center;
+}
